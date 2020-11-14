@@ -1,4 +1,5 @@
 import Layout from 'components/Layout'
+import Link from 'next/link'
 
 const Home = () => (
   <Layout>
@@ -21,6 +22,8 @@ const Home = () => (
               <header className="px-4 sm:px-6">
                 <h2 className="text-lg font-medium text-gray-900 leading-7">
                   Panel title
+                  {' '}
+                  <Link href="/index2"><a>indice2</a></Link>
                 </h2>
               </header>
               <div className="relative flex-1 px-4 sm:px-6">
